@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from datetime import datetime
 
-class TOdo(BaseModel):
+class Todo(BaseModel):
     title: str
     description: str
     is_done: bool = False

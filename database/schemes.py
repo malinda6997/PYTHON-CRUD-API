@@ -6,5 +6,5 @@ def individual_data(todo):
         "status": todo["is_done"],
     }
 
-def all_user_data(todos):
+def all_data(todos):
     return[individual_data(todo) for todo in todos]
